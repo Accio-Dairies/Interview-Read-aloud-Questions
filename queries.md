@@ -3423,4 +3423,4 @@ db.users.aggregate([
 - Know when to use SQL vs MongoDB
 - Practice writing queries by hand (whiteboard coding)
 
-Good luck with your interviews! 🚀
+Good luck with your interviews! 
