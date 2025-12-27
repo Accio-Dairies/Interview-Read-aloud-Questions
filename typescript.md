@@ -3,6 +3,7 @@
 
 **For Students:** This guide assumes you know JavaScript. Part 1 is in read-aloud interview format. Part 2 has quick-reference questions.
 
+Link to Typescript Docs:  https://docs.google.com/document/d/1g9GhDW_WOgg8UqmqvTeESFR5oLLjHB5G/edit
 
 ## Table of Contents
 
