@@ -24,54 +24,29 @@
 12. [Setting up Express Server](#q12-setting-up-express-server)
 13. [Routing](#q13-routing-get-post-put-delete)
 14. [Route Parameters and Query Strings](#q14-route-parameters-and-query-strings)
-15. [Request and Response Objects](#q15-request-and-response-objects)
-16. [Middleware - What and Why](#q16-middleware---what-and-why)
-17. [Built-in Middleware](#q17-built-in-middleware)
-18. [Custom Middleware](#q18-custom-middleware)
-19. [Error Handling Middleware](#q19-error-handling-middleware)
-20. [express.Router()](#q20-expressrouter)
+15. [Middleware - What and Why](#q16-middleware---what-and-why)
+16. [Built-in Middleware](#q17-built-in-middleware)
+17. [Custom Middleware](#q18-custom-middleware)
+18. [Error Handling Middleware](#q19-error-handling-middleware)
 
 ### REST API Development
-21. [What is REST API?](#q21-what-is-rest-api)
-22. [HTTP Methods](#q22-http-methods-get-post-put-patch-delete)
-23. [Status Codes](#q23-status-codes)
-24. [Request Data](#q24-request-data-body-params-query)
-25. [CORS](#q25-cors---cross-origin-resource-sharing)
-26. [API Versioning](#q26-api-versioning)
-27. [Request Validation](#q27-request-validation)
-28. [Response Formatting](#q28-response-formatting-json)
+19. [What is REST API?](#q21-what-is-rest-api)
+20. [Status Codes](#q23-status-codes)
 
 ### Database Integration
-29. [Connecting MongoDB with Mongoose](#q29-connecting-mongodb-with-mongoose)
-30. [Mongoose Schema and Models](#q30-mongoose-schema-and-models)
-31. [CRUD with Mongoose](#q31-crud-operations-with-mongoose)
-32. [Connecting SQL Databases](#q32-connecting-sql-databases-mysqlpostgresql)
-33. [Using ORM - Sequelize](#q33-using-orm---sequelize-basics)
-34. [Connection Pooling](#q34-connection-pooling)
+21. [Connecting MongoDB with Mongoose](#q29-connecting-mongodb-with-mongoose)
+22. [Mongoose Schema and Models](#q30-mongoose-schema-and-models)
+23. [CRUD with Mongoose](#q31-crud-operations-with-mongoose)
 
 ### Authentication & Security
-35. [Authentication vs Authorization](#q35-authentication-vs-authorization)
-36. [JWT - JSON Web Tokens](#q36-jwt---json-web-tokens)
-37. [Password Hashing](#q37-password-hashing-bcrypt)
-38. [Sessions and Cookies](#q38-sessions-and-cookies)
-39. [Environment Variables](#q39-environment-variables-env)
-40. [Security Best Practices](#q40-security-best-practices)
-
-### File Handling & Advanced
-41. [File Upload](#q41-file-upload-multer)
-42. [File Operations](#q42-file-operations-fs-module)
-43. [Streaming](#q43-streaming-in-nodejs)
-44. [Template Engines](#q44-template-engines-ejs-pug)
-45. [Logging](#q45-logging)
-46. [Error Handling Patterns](#q46-error-handling-patterns)
-47. [Debugging](#q47-debugging-nodejs-applications)
-48. [Deployment Basics](#q48-deployment-basics)
+24. [Authentication vs Authorization](#q35-authentication-vs-authorization)
+25. [JWT - JSON Web Tokens](#q36-jwt---json-web-tokens)
+26. [Password Hashing](#q37-password-hashing-bcrypt)
 
 ### Practical Patterns
-49. [Folder Structure](#q49-folder-structure--project-organization)
-50. [MVC Pattern](#q50-mvc-pattern-in-express)
-51. [API Documentation](#q51-api-documentation)
-52. [Common Interview Questions](#q52-common-interview-coding-questions)
+27. [Folder Structure](#q49-folder-structure--project-organization)
+28. [MVC Pattern](#q50-mvc-pattern-in-express)
+29. [Common Interview Questions](#q52-common-interview-coding-questions)
 
 ---
 

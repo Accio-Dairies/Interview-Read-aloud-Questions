@@ -5,6 +5,72 @@
 
 ---
 
+## Table of Contents
+
+### Function-Based Components
+1. [What are Function Components in React?](#q1-what-are-function-components-in-react)
+2. [Why do we prefer Function Components over Class Components?](#q2-why-do-we-prefer-function-components-over-class-components)
+
+### Props
+3. [What are Props? How do they work?](#q3-what-are-props-how-do-they-work)
+4. [What is Props Drilling and what problems does it cause?](#q4-what-is-props-drilling-and-what-problems-does-it-cause)
+
+### State Management with useState
+5. [What is useState and how do you use it?](#q5-what-is-usestate-and-how-do-you-use-it)
+6. [Why should you use functional updates with setState?](#q6-why-should-you-use-functional-updates-with-setstate)
+7. [Can you explain the difference between setState in Class Components and useState?](#q7-can-you-explain-the-difference-between-setstate-in-class-components-and-usestate)
+8. [What does "Lifting State Up" mean?](#q8-what-does-lifting-state-up-mean)
+9. [When should you lift state up vs using Context or Redux?](#q9-when-should-you-lift-state-up-vs-using-context-or-redux)
+10. [What is lazy initialization in useState?](#q10-what-is-lazy-initialization-in-usestate)
+
+### Side Effects and useEffect
+11. [How do you handle async data fetching in React?](#q11-how-do-you-handle-async-data-fetching-in-react)
+12. [What are the common patterns for managing loading and error states?](#q12-what-are-the-common-patterns-for-managing-loading-and-error-states)
+13. [What is useEffect and when do you use it?](#q13-what-is-useeffect-and-when-do-you-use-it)
+14. [Explain the dependency array in useEffect.](#q14-explain-the-dependency-array-in-useeffect)
+15. [What is the cleanup function in useEffect?](#q15-what-is-the-cleanup-function-in-useeffect)
+16. [What are the common mistakes with useEffect?](#q16-what-are-the-common-mistakes-with-useeffect)
+
+### Context API
+17. [What is Context API and when should you use it?](#q17-what-is-context-api-and-when-should-you-use-it)
+18. [How does useContext work?](#q18-how-does-usecontext-work)
+19. [What are the performance concerns with Context?](#q19-what-are-the-performance-concerns-with-context)
+
+### useRef
+20. [What is useRef and what are its use cases?](#q20-what-is-useref-and-what-are-its-use-cases)
+21. [What's the difference between useRef and useState?](#q21-whats-the-difference-between-useref-and-usestate)
+22. [Can you explain the previous value pattern with useRef?](#q22-can-you-explain-the-previous-value-pattern-with-useref)
+
+### useReducer
+23. [What is useReducer and when should you use it instead of useState?](#q23-what-is-usereducer-and-when-should-you-use-it-instead-of-usestate)
+24. [How does useReducer relate to Redux?](#q24-how-does-usereducer-relate-to-redux)
+
+### Redux
+25. [What is Redux and what problem does it solve?](#q25-what-is-redux-and-what-problem-does-it-solve)
+26. [What is Redux Toolkit and why do we use it?](#q26-what-is-redux-toolkit-and-why-do-we-use-it)
+27. [Explain Redux data flow with an example.](#q27-explain-redux-data-flow-with-an-example)
+28. [What are selectors in Redux? Why use them?](#q28-what-are-selectors-in-redux-why-use-them)
+29. [What is Redux middleware? Explain Redux Thunk.](#q29-what-is-redux-middleware-explain-redux-thunk)
+30. [How do you structure a Redux application?](#q30-how-do-you-structure-a-redux-application)
+
+### Lifecycle and Performance
+31. [What are the basic lifecycle methods in Class Components?](#q31-what-are-the-basic-lifecycle-methods-in-class-components)
+32. [What are React.memo, useMemo, and useCallback? When do you use them?](#q32-what-are-reactmemo-usememo-and-usecallback-when-do-you-use-them)
+33. [What are keys in React and why are they important?](#q33-what-are-keys-in-react-and-why-are-they-important)
+34. [What are some common performance pitfalls in React?](#q34-what-are-some-common-performance-pitfalls-in-react)
+
+### Best Practices
+35. [What are some React best practices you follow?](#q35-what-are-some-react-best-practices-you-follow)
+36. [How would you optimize a slow React application?](#q36-how-would-you-optimize-a-slow-react-application)
+
+### Advanced Concepts
+37. [Explain the concept of controlled vs uncontrolled components.](#q37-explain-the-concept-of-controlled-vs-uncontrolled-components)
+38. [What happens when you call setState? Walk me through the process.](#q38-what-happens-when-you-call-setstate-walk-me-through-the-process)
+39. [What are common mistakes beginners make with React hooks?](#q39-what-are-common-mistakes-beginners-make-with-react-hooks)
+40. [How do you decide between Context, Redux, and prop drilling?](#q40-how-do-you-decide-between-context-redux-and-prop-drilling)
+
+---
+
 ## Function-Based Components
 
 ### Q1: What are Function Components in React?
