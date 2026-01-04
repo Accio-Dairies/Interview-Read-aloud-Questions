@@ -1,6 +1,8 @@
 # SQL & MongoDB Interview Preparation Guide
 *Essential Database Queries for Freshers*
 
+DOC to Study SQL and Mongo Compariosn View => https://docs.google.com/document/d/1en3VVoDltHWikun32WlS8SssFMgzvZd_/edit?usp=sharing&ouid=100742433070092573757&rtpof=true&sd=true
+
 **Note for Students:** This guide is written exactly how you should answer in interviews. Practice reading these answers out loud to make them natural when speaking. Focus is on theoretical understanding and practical query writing.
 
 ---
