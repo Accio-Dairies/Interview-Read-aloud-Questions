@@ -6,26 +6,75 @@
 ---
 
 ## Table of Contents
-1. [Introduction to Async JavaScript](#introduction-to-async-javascript)
-2. [Call Stack & Synchronous Execution](#call-stack--synchronous-execution)
-3. [setTimeout & setInterval](#settimeout--setinterval)
-4. [Callbacks & Callback Hell](#callbacks--callback-hell)
-5. [Promises](#promises)
-6. [Promise Methods (all, race, allSettled, any)](#promise-methods)
-7. [Promise Chaining](#promise-chaining)
-8. [async/await](#asyncawait)
-9. [Error Handling in Async Code](#error-handling-in-async-code)
-10. [fetch API](#fetch-api)
-11. [Event Loop](#event-loop)
-12. [Microtasks vs Macrotasks](#microtasks-vs-macrotasks)
-13. [Global Execution Context](#global-execution-context)
-14. [Closures in Async Context](#closures-in-async-context)
-15. [this Keyword with Callbacks](#this-keyword-with-callbacks)
-16. [Modules (import/export)](#modules-importexport)
-17. [NPM & NPX Basics](#npm--npx-basics)
-18. [Throttling & Debouncing](#throttling--debouncing)
-19. [AbortController](#abortcontroller)
-20. [Common Patterns & Best Practices](#common-patterns--best-practices)
+
+### Core Concepts
+1. [Q1: What is Asynchronous JavaScript and why do we need it?](#q1-what-is-asynchronous-javascript-and-why-do-we-need-it)
+2. [Q2: What does it mean that JavaScript is single-threaded?](#q2-what-does-it-mean-that-javascript-is-single-threaded)
+
+### Call Stack
+3. [Q3: What is the Call Stack and how does it work?](#q3-what-is-the-call-stack-and-how-does-it-work)
+4. [Q4: What happens when the call stack overflows?](#q4-what-happens-when-the-call-stack-overflows)
+
+### Timers
+5. [Q5: How does setTimeout work?](#q5-how-does-settimeout-work)
+6. [Q6: What's the difference between setTimeout and setInterval?](#q6-whats-the-difference-between-settimeout-and-setinterval)
+7. [Q7: What is setTimeout 0 and why would you use it?](#q7-what-is-settimeout-0-and-why-would-you-use-it)
+
+### Callbacks
+8. [Q8: What is a callback function?](#q8-what-is-a-callback-function)
+9. [Q9: What is Callback Hell and how do you avoid it?](#q9-what-is-callback-hell-and-how-do-you-avoid-it)
+
+### Promises
+10. [Q10: What is a Promise in JavaScript?](#q10-what-is-a-promise-in-javascript)
+11. [Q11: How do you create and use Promises?](#q11-how-do-you-create-and-use-promises)
+12. [Q12: What's the difference between Promise.resolve() and Promise.reject()?](#q12-whats-the-difference-between-promiseresolve-and-promisereject)
+13. [Q13: Explain Promise.all() and when to use it.](#q13-explain-promiseall-and-when-to-use-it)
+14. [Q14: What's the difference between Promise.all, Promise.race, Promise.allSettled, and Promise.any?](#q14-whats-the-difference-between-promiseall-promiserace-promiseallsettled-and-promiseany)
+15. [Q15: How does Promise chaining work?](#q15-how-does-promise-chaining-work)
+
+### Async/Await
+16. [Q16: What is async/await and how does it work?](#q16-what-is-asyncawait-and-how-does-it-work)
+17. [Q17: What are common mistakes with async/await?](#q17-what-are-common-mistakes-with-asyncawait)
+
+### Error Handling
+18. [Q18: How do you handle errors in Promises?](#q18-how-do-you-handle-errors-in-promises)
+19. [Q19: How do you handle errors with async/await?](#q19-how-do-you-handle-errors-with-asyncawait)
+
+### Fetch API
+20. [Q20: How does the fetch API work?](#q20-how-does-the-fetch-api-work)
+
+### Event Loop
+21. [Q21: What is the Event Loop and how does it work?](#q21-what-is-the-event-loop-and-how-does-it-work)
+22. [Q22: Can you explain the event loop with a diagram or step-by-step example?](#q22-can-you-explain-the-event-loop-with-a-diagram-or-step-by-step-example)
+
+### Microtasks & Macrotasks
+23. [Q23: What's the difference between Microtasks and Macrotasks?](#q23-whats-the-difference-between-microtasks-and-macrotasks)
+
+### Execution Context
+24. [Q24: What is the Global Execution Context?](#q24-what-is-the-global-execution-context)
+
+### Advanced Concepts
+25. [Q25: How do closures work with asynchronous code?](#q25-how-do-closures-work-with-asynchronous-code)
+26. [Q26: How does the 'this' keyword work in callbacks?](#q26-how-does-the-this-keyword-work-in-callbacks)
+
+### Modules
+27. [Q27: What are ES6 modules and how do import/export work?](#q27-what-are-es6-modules-and-how-do-importexport-work)
+28. [Q28: What's the difference between CommonJS and ES6 modules?](#q28-whats-the-difference-between-commonjs-and-es6-modules)
+
+### NPM
+29. [Q29: What are NPM and NPX? What's the difference?](#q29-what-are-npm-and-npx-whats-the-difference)
+
+### Performance Optimization
+30. [Q30: What is Debouncing? Implement it.](#q30-what-is-debouncing-implement-it)
+31. [Q31: What is Throttling? How is it different from Debouncing?](#q31-what-is-throttling-how-is-it-different-from-debouncing)
+
+### Cancellation
+32. [Q32: What is AbortController and how do you use it?](#q32-what-is-abortcontroller-and-how-do-you-use-it)
+
+### Best Practices & Interview Tips
+33. [Q33: What are some async/await best practices?](#q33-what-are-some-asyncawait-best-practices)
+34. [Q34: What are common async interview questions/problems?](#q34-what-are-common-async-interview-questionsproblems)
+35. [Final Interview Tips](#final-interview-tips)
 
 ---
 
