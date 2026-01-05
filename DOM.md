@@ -9,56 +9,39 @@
 
 ### DOM (Document Object Model)
 1. [What is the DOM?](#q1-what-is-the-dom)
-2. [DOM Selection Methods](#q2-dom-selection-methods)
-3. [DOM Manipulation](#q3-dom-manipulation)
-4. [Creating and Removing Elements](#q4-creating-and-removing-elements)
-5. [DOM Traversal](#q5-dom-traversal)
-6. [Attributes vs Properties](#q6-attributes-vs-properties)
+2. [DOM Selection Methods](#q2-what-are-the-different-ways-to-select-dom-elements)
+3. [DOM Manipulation](#q3-how-do-you-manipulate-dom-elements)
+4. [Creating and Removing Elements](#q4-how-do-you-create-insert-and-remove-dom-elements)
+5. [DOM Traversal](#q5-what-is-dom-traversal-explain-parent-child-and-sibling-relationships)
+6. [Attributes vs Properties](#q6-whats-the-difference-between-attributes-and-properties)
 
 ### Events
-7. [Event Handling](#q7-event-handling)
-8. [Event Bubbling and Capturing](#q8-event-bubbling-and-capturing)
-9. [Event Delegation](#q9-event-delegation)
-10. [preventDefault and stopPropagation](#q10-preventdefault-and-stoppropagation)
+7. [Event Handling](#q7-how-do-you-handle-events-in-javascript)
+8. [Event Bubbling and Capturing](#q8-what-is-event-bubbling-and-capturing-explain-event-propagation)
+9. [Event Delegation](#q9-what-is-event-delegation)
+10. [preventDefault and stopPropagation](#q10-whats-the-difference-between-preventdefault-and-stoppropagation)
 
 ### Browser APIs
-11. [Window vs Document](#q11-window-vs-document)
-12. [localStorage vs sessionStorage](#q12-localstorage-vs-sessionstorage)
-13. [Browser Navigation and History](#q13-browser-navigation-and-history)
+11. [Window vs Document](#q11-whats-the-difference-between-window-and-document)
+12. [localStorage vs sessionStorage](#q12-whats-the-difference-between-localstorage-sessionstorage-and-cookies)
 
 ### OOP Fundamentals
-14. [What is OOP?](#q14-what-is-oop)
-15. [Classes and Objects](#q15-classes-and-objects)
-16. [Constructor Functions](#q16-constructor-functions)
-17. [The 'new' Keyword](#q17-the-new-keyword)
-18. [Static Methods and Properties](#q18-static-methods-and-properties)
+13. [What is OOP?](#q14-what-is-object-oriented-programming)
+14. [Classes and Objects](#q15-what-are-classes-in-javascript)
 
 ### Prototypes & Inheritance
-19. [What is Prototype?](#q19-what-is-prototype)
-20. [Prototype Chain](#q20-prototype-chain)
-21. [\_\_proto\_\_ vs prototype](#q21-__proto__-vs-prototype)
-22. [Prototypal Inheritance](#q22-prototypal-inheritance)
-23. [Classical vs Prototypal Inheritance](#q23-classical-vs-prototypal-inheritance)
-
-### Advanced OOP
-24. [Inheritance with Classes](#q24-inheritance-with-classes)
-25. [Method Overriding](#q25-method-overriding)
-26. [Private Fields and Methods](#q26-private-fields-and-methods)
-27. [Getters and Setters](#q27-getters-and-setters)
-28. [instanceof Operator](#q28-instanceof-operator)
+15. [What is Prototype?](#q19-what-is-prototype-in-javascript)
+16. [Prototype Chain](#q20-what-is-the-prototype-chain)
 
 ### OOP Principles
-29. [Encapsulation](#q29-encapsulation)
-30. [Abstraction](#q30-abstraction)
-31. [Inheritance](#q31-inheritance)
-32. [Polymorphism](#q32-polymorphism)
+17. [Encapsulation](#q29-what-is-encapsulation)
+18. [Inheritance](#q31-what-is-inheritance)
+19. [Polymorphism](#q32-what-is-polymorphism)
 
 ### Design Patterns
-33. [Module Pattern](#q33-module-pattern)
-34. [Revealing Module Pattern](#q34-revealing-module-pattern)
-35. [Singleton Pattern](#q35-singleton-pattern)
-36. [Factory Pattern](#q36-factory-pattern)
-37. [Observer Pattern](#q37-observer-pattern)
+20. [Module Pattern](#q33-what-is-the-module-pattern)
+21. [Singleton Pattern](#q35-what-is-singleton-pattern)
+22. [Factory Pattern](#q36-what-is-factory-pattern)
 
 ---
 

@@ -11,9 +11,9 @@ DOC to Study SQL and Mongo Compariosn View => https://docs.google.com/document/d
 
 ### SQL Basics
 1. [What is SQL?](#q1-what-is-sql)
-2. [Database Structure](#q2-database-structure-tables-rows-columns)
-3. [Data Types](#q3-sql-data-types)
-4. [Primary Key vs Foreign Key](#q4-primary-key-vs-foreign-key)
+2. [Database Structure](#q2-what-is-database-structure---tables-rows-columns)
+3. [Data Types](#q3-what-are-sql-data-types)
+4. [Primary Key vs Foreign Key](#q4-what-is-primary-key-vs-foreign-key)
 
 ### SQL CRUD Operations
 5. [SELECT - Reading Data](#q5-select---reading-data)
@@ -25,45 +25,34 @@ DOC to Study SQL and Mongo Compariosn View => https://docs.google.com/document/d
 ### SQL Advanced Queries
 10. [ORDER BY - Sorting](#q10-order-by---sorting)
 11. [LIMIT and OFFSET](#q11-limit-and-offset)
-12. [Aggregate Functions](#q12-aggregate-functions-count-sum-avg-min-max)
+12. [Aggregate Functions](#q12-aggregate-functions---count-sum-avg-min-max)
 13. [GROUP BY and HAVING](#q13-group-by-and-having)
-14. [DISTINCT](#q14-distinct)
-15. [LIKE and Wildcards](#q15-like-and-wildcards)
-16. [IN and BETWEEN](#q16-in-and-between)
-17. [NULL Handling](#q17-null-handling)
 
 ### SQL Joins
-18. [What are Joins?](#q18-what-are-joins)
-19. [INNER JOIN](#q19-inner-join)
-20. [LEFT JOIN](#q20-left-join-left-outer-join)
-21. [RIGHT JOIN](#q21-right-join-right-outer-join)
-22. [FULL OUTER JOIN](#q22-full-outer-join)
-23. [Self Join](#q23-self-join)
+14. [What are Joins?](#q18-what-are-joins)
+15. [INNER JOIN](#q19-inner-join)
+16. [LEFT JOIN](#q20-left-join-left-outer-join)
+17. [RIGHT JOIN](#q21-right-join-right-outer-join)
+18. [FULL OUTER JOIN](#q22-full-outer-join)
+19. [Self Join](#q23-self-join)
 
 ### MongoDB Basics
-24. [What is MongoDB?](#q24-what-is-mongodb)
-25. [SQL vs MongoDB](#q25-sql-vs-mongodb-terminology)
-26. [Document Structure](#q26-document-structure)
+20. [What is MongoDB?](#q24-what-is-mongodb)
+21. [SQL vs MongoDB](#q25-sql-vs-mongodb-terminology)
 
 ### MongoDB CRUD Operations
-27. [Find - Reading Data](#q27-find---reading-data)
-28. [Filtering in MongoDB](#q28-filtering-in-mongodb)
-29. [Insert - Adding Data](#q29-insert---adding-data)
-30. [Update - Modifying Data](#q30-update---modifying-data)
-31. [Delete - Removing Data](#q31-delete---removing-data)
+22. [Find - Reading Data](#q27-find---reading-data)
+23. [Insert - Adding Data](#q29-insert---adding-data)
+24. [Update - Modifying Data](#q30-update---modifying-data)
+25. [Delete - Removing Data](#q31-delete---removing-data)
 
 ### MongoDB Advanced Queries
-32. [Sort and Limit](#q32-sort-and-limit)
-33. [Projection](#q33-projection)
-34. [Operators](#q34-operators-comparison-and-logical)
-35. [Array Queries](#q35-array-queries)
-36. [Aggregation Pipeline](#q36-aggregation-pipeline)
-37. [Lookup (Joins)](#q37-lookup---joins-in-mongodb)
+26. [Lookup (Joins)](#q37-lookup---joins-in-mongodb)
 
 ### Comparison & Tips
-38. [SQL vs MongoDB - Side by Side](#q38-sql-vs-mongodb---side-by-side-comparison)
-39. [When to Use Which](#q39-when-to-use-sql-vs-mongodb)
-40. [Common Interview Questions](#q40-common-interview-questions)
+27. [SQL vs MongoDB - Side by Side](#q38-sql-vs-mongodb---side-by-side-comparison)
+28. [When to Use Which](#q39-when-to-use-sql-vs-mongodb)
+29. [Common Interview Questions](#q40-common-interview-questions)
 
 ---
 
